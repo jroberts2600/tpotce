@@ -15,7 +15,7 @@ variable "ec2_subnet_id" {
 
 variable "ec2_region" {
   description = "AWS region to launch servers"
-  default     = "eu-west-1"
+  default     = "us-east-1"
 }
 
 variable "ec2_ssh_key_name" {
